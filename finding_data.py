@@ -8,9 +8,9 @@ if __name__ == "__main__":
     db = client["lalit"]
     connection = db["myconnection"]
 
-    # #find_one
-    # one = connection.find_one({"_id": 1})
-    # print(one)
+    #find_one
+    one = connection.find_one({"_id": 1})
+    print(one)
 
     #find_all
 
